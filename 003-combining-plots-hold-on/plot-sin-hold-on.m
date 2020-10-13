@@ -38,6 +38,11 @@ scatter(x,y3)
 hold on;
 
 plot(x,y2)
+bar(x,y3)
+
+
+%% hold on is very handy and lets you merge multiple plots onto the same figure 
+
 
 
 
