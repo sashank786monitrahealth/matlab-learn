@@ -7,8 +7,9 @@ y = sin(x);
 
 for k = 1:length(x)
   addpoints(h,x(k),y(k));
-  drawnow
+  drawnow limitrate
 end
 
 %% addpoints - will add points to the animated line
 %% drawnow - will draw theline for us
+%% limitrate - will limit to 20 frames per second
