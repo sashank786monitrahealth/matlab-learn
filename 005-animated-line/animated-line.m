@@ -7,4 +7,8 @@ y = sin(x);
 
 for k = 1:length(x)
   addpoints(h,x(k),y(k));
-  
+  drawnow
+end
+
+%% addpoints - will add points to the animated line
+%% drawnow - will draw theline for us
