@@ -11,6 +11,9 @@ dir */*.m
 % ending level of the sub-folders
 % then we need to put two stars before the backslash 
 
-dir **/.m
+dir **/*.m
 
+%% searching files with a certain pattern in its file name
+dir *f.m
 
+%% you may mention any regular expression with dir function
