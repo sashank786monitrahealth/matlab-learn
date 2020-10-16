@@ -14,3 +14,10 @@ mkdir matlabWorks
 cd matlabWorks
 rmdir matlabWorks
 
+%% irrespective of the permissions on the directory - remove the directory
+%% it will also remove contents inside that directory
+rmdir('mathWorks','s')
+
+%% moveFile to another directory
+movefile data.csv results2
+
