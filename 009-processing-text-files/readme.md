@@ -1,11 +1,8 @@
-Directory Manipulation:
-=======================
+Learning Objectives:
+===================
 
-Learning text processing functions and operations:
- - Reading a file
- - Splitting text into lines
- - Removing empty lines
- - Obtaining the individual words
- - Creating the frequency counts for words
+Learning how to import excel file into Matlab:
+
+
  
  
