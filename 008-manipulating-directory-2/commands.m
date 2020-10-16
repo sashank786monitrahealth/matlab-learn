@@ -21,3 +21,17 @@ rmdir('mathWorks','s')
 %% moveFile to another directory
 movefile data.csv results2
 
+
+%% finally there is another relevant function called the what function
+%% what function will help retrieve the matlab related files
+% - .m files
+% - .p files
+% - .mlx files
+% 
+% .. and so on. So all the files that are associated with matlab will be retreived 
+% using this function
+
+what results2
+
+%% it will return matlab related files in results2 folder
+
