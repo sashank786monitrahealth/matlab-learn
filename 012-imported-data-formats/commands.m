@@ -68,8 +68,12 @@ x = csvread('data.csv');
 %%
 %% So lets save it and lets move it to our working directory here. 
 
+d = dlmread('data.txt',' ')
+d
 
-
+%%  d = 
+%%   45 89 87 78 78
+%%   5 65 45 45 45
 
 
 
