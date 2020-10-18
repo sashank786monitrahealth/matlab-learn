@@ -66,4 +66,8 @@ end;
 
 %% now it displays a meaningful message when the condition is not met.
 
+%% we have learnt simple use of if statement - in further sessions we will see
+%% how we can include a series 
+%% if statements to check for a series of conditions
+%%
 
