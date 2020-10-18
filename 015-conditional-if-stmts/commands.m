@@ -14,3 +14,9 @@
 %% So - in summary - sooner or later you will encounter problems for which you will not be able to find
 %% a built in function - that will give you the solution. And, therefore you will have to write your own code and 
 %% function to accomplish that. 
+
+%% With MATLAB programming you can write a lot of meaningful pieces of code
+%% In this section we will be explaining to you the first programming concept
+%%\
+%%
+
