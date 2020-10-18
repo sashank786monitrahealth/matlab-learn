@@ -48,3 +48,22 @@ if isequal(size(A),size(B))
 end
 
 %% since the two matrices are not equal - they are not concatenating.
+
+%% if the condition in front of the if statement evaluates to false then the expression will not be evaluated. 
+%% in the previous example - you would have noted that we did not mention any code when the condition is false
+%% We just said, that we do not want to concatenate two matrices
+%% 
+
+%% else statement cannot be used in isolation
+
+A = rand(4);
+B = rand(5);
+if isequal(size(A),size(B))
+   C = [A;B];
+else 
+   disp("Two matrices are not of same size");
+end;
+
+%% now it displays a meaningful message when the condition is not met.
+
+
