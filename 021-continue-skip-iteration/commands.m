@@ -10,3 +10,4 @@ for i=1:10
 
 end
 
+% cell datatype allows you to have no value at a particular location
