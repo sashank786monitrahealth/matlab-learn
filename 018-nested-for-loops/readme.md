@@ -2,7 +2,8 @@ Learning Objectives:
 =======================
 
 Learning Nested FOR Loops:
-  - Understanding creation of nested for loops
+  - Loop containing another loop
+  - Understanding with a simple student grading example
   
 
 
