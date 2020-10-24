@@ -9,3 +9,7 @@ function square(a)
 end
 
 
+
+%% calling a function
+%% octave:3> square(3)
+%% The square of the input provided is 9
