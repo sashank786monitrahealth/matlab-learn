@@ -1,27 +1,6 @@
-clear all;
-
-% the switch statement is used for making a selection
-
-%  switch m
-%     case
-%     case
-%     case
-%     otherwise
-%  end
-
-
-m = input('Enter a number:');
-
-switch m
-  case 1
-     disp('The number is a positive one')
-  case 0
-     disp('The number is a zero')
-  otherwise
-     disp('I dont know') 
-end
-
-
+%% add custom function code
+%% the common thing in all these functions is that we will provide some inputs
+%% to the functions after writing its name in smooth brackets
 
 
 
