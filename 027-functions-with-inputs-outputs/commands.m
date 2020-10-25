@@ -16,7 +16,16 @@
 %% maximum value of the matrices
 %% and they will be returned as output of the function.
 
-function [] = statistics_of_data(a,b)
+function [std, var, min, max] = statistics_of_data(a,b)
+   d = [a;b]
+   %% this will concatenate the two matrices based on rows - they should have same number of columns
+   %% Here is a word of caution, we cannot use the names of built-in functions as variable names
+   %% std = std(d)
+   %%
+   %% to find out the details of the built in function
+   %% type at the prompt
+   %% help std
+   
    
 end
 
