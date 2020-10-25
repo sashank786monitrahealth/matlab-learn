@@ -16,8 +16,11 @@
 %% maximum value of the matrices
 %% and they will be returned as output of the function.
 
+m = rand(4);
+n = rand(4);
+
 function [standard_dev, variance_dev, min_dev, max_dev] = statistics_of_data(a,b)
-   d = [a;b]
+   d = [a;b];
    %% this will concatenate the two matrices based on rows - they should have same number of columns
    %% Here is a word of caution, we cannot use the names of built-in functions as variable names
    %% std = std(d)
@@ -25,14 +28,22 @@ function [standard_dev, variance_dev, min_dev, max_dev] = statistics_of_data(a,b
    %% to find out the details of the built in function
    %% type at the prompt
    %% help std
-   standard_dev = std(d)
-   disp(standard_dev)
-   variance_dev = var(d)
-   disp(variance_dev)
-   min_dev = min(d)
-   disp(min_dev)
-   max_dev = max(d)
-   disp(max_dev)   
+   standard_dev = std(d);
+   %%disp(standard_dev);
+   variance_dev = var(d);
+   %%disp(variance_dev);
+   min_dev = min(d);
+   %%disp(min_dev);
+   max_dev = max(d);
+   %%disp(max_dev)   ;
    
 end
+
+
+[a,b,c,d] = statistics_of_data(m,n);
+
+disp(a)
+disp(b)
+disp(c)
+disp(d)
 
