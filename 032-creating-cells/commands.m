@@ -13,3 +13,32 @@
 %% 
 %% So let us explain by what do we mean by rectangular
 %% An example will clarify this
+
+%% Let us suppose that we have a cell variable with 3 rows - then all the rows should contain the same number of columns
+%% if a row contains 5 columns then each and every column should contain the same number of rows
+%%
+%% This means that we can define a cell variable of size 4 cross 3 (4x3) or 3 cross 4 (3x4)
+%% which means that it will contain 13 or 21 cells depending on its size 
+%% and it is always going to be rectangular in shape
+%%
+%% Now let us see how we can define a cell
+%%
+%% So there are essentially 2 ways to do it.
+%% 1. If you want to directly define the values that are to be part of the cell.
+%% So, in that case, you need to mention it using the curly brackets
+%% Inside, these curly brackets we are going to provide the values that are going to be part of the cell
+
+C = {1,2,'C',-1}
+
+
+% octave:2> C = {1,2,'C',-1}
+% C =
+% {
+%   [1,1] = 1
+%   [1,2] = 2
+%   [1,3] = C
+%   [1,4] = -1
+% }
+
+
+
