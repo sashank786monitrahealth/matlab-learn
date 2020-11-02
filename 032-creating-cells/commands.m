@@ -40,5 +40,32 @@ C = {1,2,'C',-1}
 %   [1,4] = -1
 % }
 
+%% The second method is to use the reserved word cell
+%% If the size of the cell is greater than 1x1(One cross One) - then we will call it a cell array.
+%% because cell refers to a cell of size 1x1 (One cross One)
+
+C = cell(4,4)
+
+%% octave:2> C = cell(4,4)
+%% C =
+%% {
+%%   [1,1] = [](0x0)
+%%   [2,1] = [](0x0)
+%%   [3,1] = [](0x0)
+%%   [4,1] = [](0x0)
+%%   [1,2] = [](0x0)
+%%   [2,2] = [](0x0)
+%%   [3,2] = [](0x0)
+%%   [4,2] = [](0x0)
+%%   [1,3] = [](0x0)
+%%   [2,3] = [](0x0)
+%%   [3,3] = [](0x0)
+%%   [4,3] = [](0x0)
+%%   [1,4] = [](0x0)
+%%   [2,4] = [](0x0)
+%%   [3,4] = [](0x0)
+%%   [4,4] = [](0x0)
+%% }
+
 
 
