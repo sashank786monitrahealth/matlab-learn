@@ -67,5 +67,8 @@ C = cell(4,4)
 %%   [4,4] = [](0x0)
 %% }
 
+C = {1,2,3;'text',rand(5,2,3),'mycell'}
 
-
+%% cellplot of C
+C = {1,2,3;'text',rand(5,2,3),'mycell'};
+cellplot(C)
