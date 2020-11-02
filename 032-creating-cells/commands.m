@@ -1,11 +1,12 @@
-%%This is going to be a short section where we will be learning how we can
-%% generate reports for sharing our code. There can be several motivations for this
-%% Such as I may want to share my code or results to my students or employers.
-%% Or I just want to share them with my friends, research partners or colleagues.
-%% 
-%% The matlab provides very good functionality in this regard. 
-%% 
-%% Publish Tab
-%% But, before we want to publish our results we would like to divide our code into meaningful portions.
+%% we will be looking at advance matlab datatypes and data structures
+%% this part is essential part of your matlab skills
+%% since there are numerous problems which cannot be effectively modeled 
+%% unless and until we learn the advanced matlab datatypes
+
+%% In this first section we will be covering the cell datatype
+
+%% The essential differnce between the cell datatype and the other datatype - 
+%% such as numerics , strings or characters is that -
+%% cell datatype can hold and store different types of data. And that is what it makes it more interesting
 %%
 %% 
