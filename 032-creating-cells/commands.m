@@ -9,4 +9,7 @@
 %% such as numerics , strings or characters is that -
 %% cell datatype can hold and store different types of data. And that is what it makes it more interesting
 %%
+%% the requirements of cell is that it is rectangular in shape
 %% 
+%% So let us explain by what do we mean by rectangular
+%% An example will clarify this
